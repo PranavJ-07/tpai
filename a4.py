@@ -23,7 +23,7 @@ def send_msg():
 
 root = tk.Tk()
 root.title("Customer Support Chatbot\n")
-root.geometry("800x800")
+root.geometry("1919x1242")
 root.configure(bg="blue")
 
 chat_area = tk.Text(root, height=30, width=60, bg="white", fg="black")
@@ -35,7 +35,7 @@ label.pack()
 entry = tk.Entry(root, width = 10, bg="white", fg="black", bd=3)
 entry.pack(pady=10)
 
-send_button = tk.Button(root, text="Send", command=send_msg, bg="blue", fg="white")
+send_button = tk.Button(root, text="Send", command=send_msg, bg="blue", fg="black", bd=3)
 send_button.pack();
 
 root.mainloop()
