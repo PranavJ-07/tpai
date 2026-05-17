@@ -118,7 +118,6 @@ void dijkstras()
                 u = v;
             }
         }
-
         visited[u] = true;
 
         for (int v = 0; v < n; v++)
@@ -166,7 +165,6 @@ int main()
         case 4:
             cout << "Program ended";
             break;
-
         default:
             cout << "Invalid choice\n";
         }
